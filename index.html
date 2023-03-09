@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,21 +17,23 @@
 
 <body>
     <header>
-        <nav class="list">
-            <a class="web link" href="./index.html">web<span class="studio">Studio</span></a>
-            <ul class="list">
-                <li><a class="menu-link link" href="./index.html">Studio</a></li>
-                <li><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="menu-link link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="adress-list list">
-            <ul class="list">
-                <li><a class="adress link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li><a class="adress link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+        <div class="page-header-container">
+            <nav class="list page-nav">
+                <a class="web link logo" href="./index.html">web<span class="studio">Studio</span></a>
+                <ul class="list menu-list">
+                    <li class="menu-link-item"><a class="menu-link link" href="./index.html">Studio</a></li>
+                    <li class="menu-link-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="menu-link-item"><a class="menu-link link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="adress-list list">
+                <ul class="list contacts">
+                    <li><a class="adress link " href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li><a class="adress link " href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+        </div>
     </header>
     <main>
         <section class="section-one">
@@ -39,42 +42,47 @@
         </section>
 
         <section class="section-two">
-            <h2 hidden class="hdr-two">what-we-use</h2>
-            <ul class="list">
-                <li>
-                    <h3 class="hdr-three">Strategy</h3>
-                    <p class="description">Our goal is to identify the business
-                        problem to walk away with the perfect and creative solution.</p>
-                </li>
-                <li>
-                    <h3 class="hdr-three">Punctuality</h3>
-                    <p class="description">Bring the key message to the brand's audience for the best price within the
-                        shortest possible
-                        time.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="hdr-three">Diligence</h3>
-                    <p class="description">Research and confirm brands that present the strongest digital growth
-                        opportunities and minimize
-                        risk.</p>
-                </li>
-                <li>
-                    <h3 class="hdr-three">Technologies</h3>
-                    <p class="description"> Design practice focused on digital experiences. We bring forth a deep
-                        passion for
-                        problem-solving.
-                    </p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 hidden class="hdr-two">what-we-use</h2>
+                <ul class="list">
+                    <li>
+                        <h3 class="hdr-three">Strategy</h3>
+                        <p class="description">Our goal is to identify the business
+                            problem to walk away with the perfect and creative solution.</p>
+                    </li>
+                    <li>
+                        <h3 class="hdr-three">Punctuality</h3>
+                        <p class="description">Bring the key message to the brand's audience for the best price within
+                            the
+                            shortest possible
+                            time.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="hdr-three">Diligence</h3>
+                        <p class="description">Research and confirm brands that present the strongest digital growth
+                            opportunities and minimize
+                            risk.</p>
+                    </li>
+                    <li>
+                        <h3 class="hdr-three">Technologies</h3>
+                        <p class="description"> Design practice focused on digital experiences. We bring forth a deep
+                            passion for
+                            problem-solving.
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="section-three">
-            <h2 class="hdr-two">What are we doing</h2>
-            <ul class="list">
-                <li><img src="./images/section1/img1.jpg" alt="computer-application" width="360" height="300"></li>
-                <li><img src="./images/section1/img2.jpg" alt="several-applications" width="360" height="300"></li>
-                <li><img src="./images/section1/img3.jpg" alt="phone-application" width="360" height="300"></li>
-            </ul>
+            <div class="container">
+                <h2 class="hdr-two">What are we doing</h2>
+                <ul class="list">
+                    <li><img src="./images/section1/img1.jpg" alt="computer-application" width="360" height="300"></li>
+                    <li><img src="./images/section1/img2.jpg" alt="several-applications" width="360" height="300"></li>
+                    <li><img src="./images/section1/img3.jpg" alt="phone-application" width="360" height="300"></li>
+                </ul>
+            </div>
         </section>
         <section class="section-four">
             <h2 class="hdr-two">Our Team</h2>

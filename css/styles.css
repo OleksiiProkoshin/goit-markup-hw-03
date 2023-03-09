@@ -5,6 +5,27 @@
     --Body-text-color-SLATE: #434455;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+
 /* Body */
 body {
     font-family: 'Roboto', sans-serif;
@@ -31,6 +52,37 @@ body {
     list-style: none;
 }
 
+.container {
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    display: flex;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-link-item:not(:last-child) {
+    margin-right: 40px;
+}
+
 /* Header */
 
 .web {
@@ -43,7 +95,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--Primary-Brand-color-Iris);
-
+    margin-right: 147px;
 }
 
 .studio {
@@ -65,7 +117,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--Headings-color-Navyblue)
+    color: var(--Headings-color-Navyblue);
 }
 
 .menu-link:focus,
@@ -74,7 +126,8 @@ body {
 }
 
 .adress-list {
-    font-style: normal
+    font-style: normal;
+
 }
 
 .adress {
@@ -97,6 +150,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--Pressed-state-color-OCEAN);
     font-style: normal;
+}
+
+.contacts {
+    display: flex;
 }
 
 /* section one */
