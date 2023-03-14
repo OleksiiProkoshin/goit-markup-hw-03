@@ -240,7 +240,8 @@ img {
 
 .container-wrap {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    flex-basis: 412px;
 }
 
 .section-three-list {
@@ -253,6 +254,7 @@ img {
     display: flex;
     flex-direction: column;
     background-color: var(--cloud);
+    flex-basis: 732px;
 }
 
 .section-four-list {
@@ -372,6 +374,7 @@ img {
     flex-wrap: wrap;
     gap: 48px 24px;
     margin-bottom: 96px;
+    flex-basis: 1356px;
 }
 
 .img-info {
